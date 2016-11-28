@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="divResult">result</div>
+
+<script type="text/javascript">
+	
+$(document).ready(function(){
+
+var emplyeeJSON ={
+	"Todd":{
+"firstname":"Todd",
+"lastname":"Grover",
+"gender":"Male",
+"salary":50000
+
+},
+
+"howie":{
+"firstname":"howie",
+"lastname":"wang",
+"gender":"Male",
+"salary":65000
+
+}
+
+
+};
+/*
+var result ='';
+result += 'First Name =' + emplyeeJSON[1].firstname+'<br>';
+result += 'Last Name =' + emplyeeJSON[1].lastname+'<br>';
+result += 'Gender =' + emplyeeJSON[1].gender+'<br>';
+result += 'Salary =' + emplyeeJSON[1].salary+'<br>';
+*/
+$('#divResult').html(emplyeeJSON.Todd.gender);
+
+});
+
+
+
+</script>
+</body>
+</html>
