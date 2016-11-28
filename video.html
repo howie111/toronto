@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video/canvans Demo 0</title>
+</head>
+
+<body>
+<section id = "section1">
+
+
+
+
+<video controls preload="none" poster="Facebook.png">
+Your browser does not support the audio element.
+    Download the audio/video in 
+
+    <source src=http://html5doctor.com/demos/video-canvas-magic/video.webm type=video/webm> 
+	<source src=http://html5doctor.com/demos/video-canvas-magic/video.ogg type=video/ogg> 
+	<source src=http://html5doctor.com/demos/video-canvas-magic/video.mp4 type=video/mp4>
+
+</video>
+
+</section>
+
+
+<section id="section2">
+
+<figure id = "figaudio1">
+<img id="imghorse" width="200" src=http://upload.wikimedia.org/wikipedia/commons/d/d4/Nokota_Horses.jpg
+ alt="a horse">
+ <figcaption id="figcptionaudio1">
+ Press Play to hear the hourse
+ 	
+	<audio controls="controls">
+	  <source src="https://dl.dropboxusercontent.com/u/1631516/horse.ogg" type="audio/ogg" />
+      <source src="https://dl.dropboxusercontent.com/u/1631516/horse.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+      Download the audio/video in <a href=”https://dl.dropboxusercontent.com/u/1631516/horse.ogg”>OGG</a> or <a href=”https://dl.dropboxusercontent.com/u/1631516/horse.mp3”>MP3</a> 
+ 
+    </audio>
+     </figcaption>
+
+</figure>
+
+</section>
+
+<section id="section3" >
+ 
+	<video  controls preload="none" poster="Facebook.png" >
+
+	Your browser does not support the audio element.
+    Download the audio/video in 
+    <source src=http://html5doctor.com/demos/video-canvas-magic/video.webm type=video/webm> 
+	<source src=http://html5doctor.com/demos/video-canvas-magic/video.ogg type=video/ogg> 
+	<source src=http://html5doctor.com/demos/video-canvas-magic/video.mp4 type=video/mp4>
+	
+	</video>
+
+
+
+</section>
+
+
+
+
+<style type="text/css">
+
+
+body{
+
+
+padding: 20px;
+
+
+
+
+}
+
+
+section{
+
+border:1px solid green;
+position:relative;
+width: 600px;
+height: 600px;
+margin: 30px 0 30px 0;
+
+}	
+
+
+video{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin:-180px 0 0 -240px;
+		width: 300px;
+		transition: all 0.5s ease-in-out;
+		
+	}
+	video:hover,video:focus{
+
+width: 400px;
+transform: rotate(-5deg);
+
+	}
+
+
+
+
+
+
+
+
+#figaudio1{
+
+width: 420px;
+padding: 6px;text-align: center;
+background: white;
+margin:60px;
+border: solid 1px #888888;
+border-radius: 8px;
+
+}
+#figcptionaudio1{
+
+font-size: .8em;
+padding: 6px 8px;
+background: #dddddd;
+display: block;
+text-align: center;
+font-style: italic;
+border-radius: 7px;
+
+
+
+}
+
+#figaudio1 img{
+
+background:#eeeeee;
+padding: 5px;
+border:solid 1px #444444;
+
+}
+
+audio, #figaudio1 img{
+
+	transition: all 0.5s;
+}
+
+#figaudio1 img:hover{
+
+box-shadow: 15px 15px 20px rgba(0 0 0 0.4);
+transform: scale(1.05);
+
+}
+
+audio:hover, audio:focus, audio:active{
+
+box-shadow: 15px 15px 20px rgba(0 0 0 0.4);
+transform: scale(1.1);
+}
+
+
+
+
+
+
+
+</style>
+
+
+</body>
+</html>

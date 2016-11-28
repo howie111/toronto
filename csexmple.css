@@ -1,0 +1,51 @@
+header,footer,aside,section{
+
+	background-color: green;
+	color: white;
+	padding: 24px 14px;
+	margin:10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px 2px grey;
+	font:14px/24px "Lucida console";
+	
+}
+
+header,footer{
+	clear: both;
+	text-align: center;
+	
+}
+section {
+
+	float: left;
+	width: 60%;
+}
+aside{
+
+	float: right;
+	width: 25%
+}
+#michelBuffa{
+float: right;
+margin-left: 10px;
+
+}
+section summary::-webkit-details-marker {
+color:#ff0000;
+background: #ffffff;
+
+}
+summary:after{
+
+content: "+";
+color:#ff00ff;
+float: left;
+
+}
+mark{
+	background-color: green;
+	color: yellow;
+
+}
+
+
